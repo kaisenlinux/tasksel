@@ -1,0 +1,9 @@
+Task: network-tls
+Relevance: 14
+Parent: network
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-tls-tools
+Description: Install only SSL/TLS analyze tools (sslyze, sslcan...)
+ This task installs kaisen-tls-tools.

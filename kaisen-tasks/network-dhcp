@@ -1,0 +1,9 @@
+Task: network-dhcp
+Relevance: 2
+Parent: network
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-dhcp-tools
+Description: Install only DHCP tools (dhcping, dhcpdump...)
+ This task installs kaisen-dhcp-tools.

@@ -1,0 +1,9 @@
+Task: network-gns3
+Relevance: 6
+Parent: network
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-gns3
+Description: Install only GNS3 tools (dynamips, gns3-client, vpcs...)
+ This task installs kaisen-gns3.

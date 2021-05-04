@@ -1,0 +1,8 @@
+Task: services
+Relevance: 8
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-services-management
+Description: Install scripts and the services menu (highly recommended installation to reduce RAM usage)
+ This task installs kaisen-services-management.

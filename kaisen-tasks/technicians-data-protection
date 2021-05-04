@@ -1,0 +1,9 @@
+Task: technicians-data-protection
+Relevance: 5
+Parent: technicians
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-data-protection
+Description: Install only data protection tools (Veracrypt, ZuluCrypt, lockfile...)
+ This task installs kaisen-data-protection.

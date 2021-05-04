@@ -1,0 +1,8 @@
+Task: miscellaneous
+Relevance: 5
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-miscellaneous
+Description: Install miscellaneous tools (gpg, libreoffice, vlc, thunderbird...)
+ This task installs kaisen-miscellaneous.

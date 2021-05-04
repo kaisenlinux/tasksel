@@ -1,0 +1,9 @@
+Task: technicians-mount
+Relevance: 9
+Parent: technicians
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-mount
+Description: Install only mount disks tools (apfs-fuse, sshfs, tmfs, bitlocker...)
+ This task installs kaisen-mount.

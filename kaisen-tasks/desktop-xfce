@@ -1,0 +1,9 @@
+Task: desktop-xfce
+Relevance: 3
+Parent: desktop
+Test-default-desktop: 3 xfce
+Section: user
+Key:
+  kaisen-xfce
+Description: XFCE
+ This task installs kaisen-xfce.

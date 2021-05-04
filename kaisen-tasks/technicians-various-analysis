@@ -1,0 +1,9 @@
+Task: technicians-various-analysis
+Relevance: 15
+Parent: technicians
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-various-analysis
+Description: Install only various analysis tools (qtop, pstree, file...)
+ This task installs kaisen-various-analysis.

@@ -1,0 +1,9 @@
+Task: sysadmin-sysops
+Relevance: 8
+Parent: sysadmin
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-sysops-tools
+Description: Install only SysOps tools (Docker, Ansible, Terraform...)
+ This task installs kaisen-sysops-tools.

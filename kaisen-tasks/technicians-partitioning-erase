@@ -1,0 +1,9 @@
+Task: technicians-partitioning-erase
+Relevance: 10
+Parent: technicians
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-partitioning-erase
+Description: Install only partitioning and erasing tools (gparted, nwipe, bleachbit...)
+ This task installs kaisen-partitioning-erase.

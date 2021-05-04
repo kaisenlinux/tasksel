@@ -1,0 +1,8 @@
+Task: network
+Relevance: 2
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-network-tools
+Description: Install all network tools
+ This task installs kaisen-network-tools.

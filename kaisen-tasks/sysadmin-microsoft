@@ -1,0 +1,9 @@
+Task: sysadmin-microsoft
+Relevance: 6
+Parent: sysadmin
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-microsoft-tools
+Description: Install only Microsoft AD analyze (Bloodhound, ldapdomaindump...)
+ This task installs kaisen-microsoft-tools.

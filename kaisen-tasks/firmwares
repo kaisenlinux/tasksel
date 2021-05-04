@@ -1,0 +1,8 @@
+Task: firmwares
+Relevance: 7
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-firmwares
+Description: Adding more than drivers support (amd, nvidia, bluetooth...)
+ This task installs kaisen-firmwares.

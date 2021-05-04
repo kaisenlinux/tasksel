@@ -1,0 +1,34 @@
+Source: tasksel
+Section: tasks
+Priority: optional
+XSBC-Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
+Standards-Version: 4.5.1
+Build-Depends:
+	debhelper-compat (= 13),
+	dpkg-dev (>= 1.9.0),
+	gettext,
+	po-debconf
+Vcs-Browser: https://gitlab.com/kaisenlinux/packages/tasksel
+Vcs-Git: https://gitlab.com/kaisenlinux/packages/tasksel.git
+Rules-Requires-Root: no
+
+Package: tasksel
+Section: admin
+Architecture: all
+Pre-Depends: debconf (>= 1.5.34) | cdebconf (>= 0.106)
+Depends: ${misc:Depends}, liblocale-gettext-perl, apt, tasksel-data, perl-base (>= 5.14.0-1)
+Conflicts: debconf (<< 1.4.27), base-config (<< 2.32)
+Description: tool for selecting tasks for installation on Debian systems
+ This package provides 'tasksel', a simple interface for users who
+ want to configure their system to perform a specific task.
+
+Package: tasksel-data
+Section: admin
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: laptop-detect, tasksel
+Conflicts: tasksel (<< 2.67)
+Description: official tasks used for installation of Debian systems
+ This package contains data about the standard tasks available on a Debian
+ system.

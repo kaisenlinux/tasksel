@@ -1,0 +1,9 @@
+Task: network-monitoring
+Relevance: 10
+Parent: network
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-network-monitoring
+Description: Install only network monitoring tools (cbm, etherape, netperfmeter...)
+ This task installs kaisen-network-monitoring.

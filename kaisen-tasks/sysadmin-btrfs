@@ -1,0 +1,9 @@
+Task: sysadmin-btrfs
+Relevance: 4
+Parent: sysadmin
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-btrfs-snapshots
+Description: Install only btrfs snapshots tools (apt-btrfs-snapshot, timeshift, btrbk...)
+ This task installs kaisen-btrfs-snapshot.

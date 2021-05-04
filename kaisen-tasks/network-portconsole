@@ -1,0 +1,9 @@
+Task: network-portconsole
+Relevance: 13
+Parent: network
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-portconsole-tools
+Description: Install only console port tools (screen, picocom, minicom...)
+ This task installs kaisen-portconsole-tools.

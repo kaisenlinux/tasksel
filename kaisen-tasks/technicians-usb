@@ -1,0 +1,9 @@
+Task: technicians-usb
+Relevance: 14
+Parent: technicians
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-usb-boot
+Description: Install only make bootable usb tools (balenaetcher, dcfldd...)
+ This task installs kaisen-usb-boot.

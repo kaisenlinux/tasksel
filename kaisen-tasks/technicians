@@ -1,0 +1,8 @@
+Task: technicians
+Relevance: 4
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-technicians-tools
+Description: Install all technicians tools
+ This task installs kaisen-technicians-tools.
