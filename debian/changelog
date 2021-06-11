@@ -1,3 +1,22 @@
+tasksel (3.68+kaisen1) kaisen-packages; urgency=medium
+
+  * Import new upstream release
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 11 Jun 2021 17:24:46 +0200
+
+tasksel (3.68) unstable; urgency=medium
+
+  * Team upload.
+
+  * Drop libu2f-udev from Recommends for task-desktop; it's an transitional
+    package now, since starting with udev v244, U2F devices are autodetected
+    without needing 3rd party udev rules. Closes: #987770
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Valentin Vidic
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 31 May 2021 21:06:32 +0200
+
 tasksel (3.67+kaisen1) kaisen-testing; urgency=medium
 
   * Adding kaisen-tasks
