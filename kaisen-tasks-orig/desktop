@@ -1,0 +1,6 @@
+Task: desktop
+Relevance: 1
+Section: user
+Test-new-install: mark show
+Description: Select desktop environment (select this item has no effect) ==>
+ This task permit select desktop environment.
