@@ -1,3 +1,9 @@
+tasksel (3.68+kaisen3) kaisen-packages; urgency=medium
+
+  * Rename kaisen-tasks-orig to kaisen-tasks
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 4 Jul 2021 00:34:31 +0200
+
 tasksel (3.68+kaisen2) kaisen-packages; urgency=medium
 
   * Create kaisen-tasks-orig folder to keep only desktop tasks

@@ -1,9 +1,0 @@
-Task: desktop-mate
-Relevance: 1
-Parent: desktop
-Test-default-desktop: 3 mate
-Section: user
-Key:
-  kaisen-mate
-Description: MATE
- This task installs kaisen-mate.

@@ -1,9 +1,0 @@
-Task: desktop-kde
-Relevance: 2
-Parent: desktop
-Test-default-desktop: 3 kde
-Section: user
-Key:
-  kaisen-kde
-Description: KDE
- This task installs kaisen-kde.
