@@ -1,0 +1,8 @@
+Task: sysadmin-uncategorized
+Relevance: 10
+Parent: sysadmin
+Section: user
+Key:
+  kaisen-sysadmin-uncategorized
+Description: Install only sysadmin miscellaneous tools (ab, xca, lsof...)
+ This task installs kaisen-sysadmin-uncategorized.

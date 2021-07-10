@@ -1,0 +1,8 @@
+Task: network-wifi
+Relevance: 16
+Parent: network
+Section: user
+Key:
+  kaisen-wifi-tools
+Description: Install only Wi-Fi tools (aircrack-ng, iw, rfkill...)
+ This task installs kaisen-wifi-tools.

@@ -1,0 +1,8 @@
+Task: network-layer2
+Relevance: 7
+Parent: network
+Section: user
+Key:
+  kaisen-layer2-tools
+Description: Install only OSI layer 2 tools (arp, arpalert, arptables...)
+ This task installs kaisen-layer2-tools.

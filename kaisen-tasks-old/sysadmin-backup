@@ -1,0 +1,8 @@
+Task: sysadmin-backup
+Relevance: 3
+Parent: sysadmin
+Section: user
+Key:
+  kaisen-backup-tools
+Description: Install only backup tools (rsync, dirvish, zsync...) 
+ This task installs kaisen-backup-tools.

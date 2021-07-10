@@ -1,9 +1,0 @@
-Task: technicians-temperature
-Relevance: 13
-Parent: technicians
-Section: user
-Test-new-install: mark show
-Key:
-  kaisen-temperature-analysis
-Description: Install only temperature tools (psensor, hddtemp...)
- This task installs kaisen-temperature-tools.

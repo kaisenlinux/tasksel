@@ -1,9 +1,0 @@
-Task: technicians-cloning
-Relevance: 4
-Parent: technicians
-Section: user
-Test-new-install: mark show
-Key:
-  kaisen-cloning
-Description: Install only cloning tools (guymager, partclone, clonezilla...)
- This task installs kaisen-cloning-tools.

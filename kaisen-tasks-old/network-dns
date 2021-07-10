@@ -1,0 +1,8 @@
+Task: network-dns
+Relevance: 3
+Parent: network
+Section: user
+Key:
+  kaisen-dns-tools
+Description: Install only DNS tools (whois, dig, nslookup...)
+ This task installs kaisen-dns-tools.

@@ -1,9 +1,0 @@
-Task: network-vpn
-Relevance: 15
-Parent: network
-Section: user
-Test-new-install: mark show
-Key:
-  kaisen-vpn-tools
-Description: Install only VPN clients (openvpn, wireguard)
- This task installs kaisen-vpn-tools.

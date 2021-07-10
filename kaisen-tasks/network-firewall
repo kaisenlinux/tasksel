@@ -1,9 +1,0 @@
-Task: network-firewall
-Relevance: 5
-Parent: network
-Section: user
-Test-new-install: mark show
-Key:
-  kaisen-firewall-tools
-Description: Install only firewall tools (iptstate, iptables-persistent...)
- This task installs kaisen-firewall-tools.

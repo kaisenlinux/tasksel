@@ -1,0 +1,7 @@
+Task: filesystems
+Relevance: 6
+Section: user
+Key:
+  kaisen-filesystems
+Description: Adding more than filesystems support (XFS, NILFS, F2FS...)
+ This task installs kaisen-filesystems.

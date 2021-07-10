@@ -1,3 +1,10 @@
+tasksel (3.68+kaisen4) kaisen-packages; urgency=medium
+
+  * Readd kaisen-tasks-old
+  * Keep only desktop tasks
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 10 Jul 2021 15:51:54 +0200
+
 tasksel (3.68+kaisen3) kaisen-packages; urgency=medium
 
   * Rename kaisen-tasks-orig to kaisen-tasks

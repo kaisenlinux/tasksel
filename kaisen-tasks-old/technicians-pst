@@ -1,0 +1,8 @@
+Task: technicians-pst
+Relevance: 12
+Parent: technicians
+Section: user
+Key:
+  kaisen-pst-tools
+Description: Install only PST tools (pst2dii, pffinfo...)
+ This task installs kaisen-pst-tools.

@@ -1,9 +1,0 @@
-Task: sysadmin-virtualization
-Relevance: 9
-Parent: sysadmin
-Section: user
-Test-new-install: mark show
-Key:
-  kaisen-virtualization-tools
-Description: Install only virtualization and guests additions (Virtualbox, QEMU, VMWare...)
- This task installs kaisen-virtualization.

@@ -1,0 +1,8 @@
+Task: technicians-hardware
+Relevance: 8
+Parent: technicians
+Section: user
+Key:
+  kaisen-hardware
+Description: Install only hardware tools (memtester, inxi, lshw...)
+ This task installs kaisen-hardware.

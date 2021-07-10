@@ -1,9 +1,0 @@
-Task: network-ethernet
-Relevance: 4
-Parent: network
-Section: user
-Test-new-install: mark show
-Key:
-  kaisen-ethernet-tools
-Description: Install only ethernet tools (ethstatus, packeth...)
- This task installs kaisen-ethernet-tools.

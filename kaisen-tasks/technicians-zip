@@ -1,9 +1,0 @@
-Task: technicians-zip
-Relevance: 17
-Parent: technicians
-Section: user
-Test-new-install: mark show
-Key:
-  kaisen-zip
-Description: Install only compress/decompress tools (zstd, lzop, pigz...)
- This task installs kaisen-zip.
