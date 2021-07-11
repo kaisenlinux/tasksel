@@ -1,3 +1,10 @@
+tasksel (3.68+kaisen5) kaisen-packages; urgency=medium
+
+  * Remove kaisen-tasks-old (replace by kaisen-netinst-configurator)
+  * Add kaisen-netinst-configurator task
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 10 Jul 2021 22:21:16 +0200
+
 tasksel (3.68+kaisen4) kaisen-packages; urgency=medium
 
   * Readd kaisen-tasks-old

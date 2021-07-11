@@ -1,8 +1,0 @@
-Task: network-scanners
-Relevance: 11
-Parent: network
-Section: user
-Key:
-  kaisen-network-scanners
-Description: Install only network scanners tools (nmap, scapy, netstat, ndiff...)
- This task installs kaisen-network-scanners.

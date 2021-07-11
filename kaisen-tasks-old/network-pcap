@@ -1,8 +1,0 @@
-Task: network-pcap
-Relevance: 12
-Parent: network
-Section: user
-Key:
-  kaisen-pcap-tools
-Description: Install only network PCAP tools (tshark, wireshark, tcpdump...)
- This task installs kaisen-pcap-tools.

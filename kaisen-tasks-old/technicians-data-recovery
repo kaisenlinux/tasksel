@@ -1,8 +1,0 @@
-Task: technicians-data-recovery
-Relevance: 6
-Parent: technicians
-Section: user
-Key:
-  kaisen-data-recovery
-Description: Install only data recovery tools (photorec, hfsprescue, safecopy...)
- This task installs kaisen-data-recovery.

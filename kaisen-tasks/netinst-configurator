@@ -1,0 +1,8 @@
+Task: netinst-configurator
+Relevance: 2
+Section: user
+Test-new-install: mark show
+Key:
+  kaisen-netinst-configurator
+Description: Install the NETINST configurator command to personnalize the system after installation
+ This task installs kaisen-netinst-configurator.

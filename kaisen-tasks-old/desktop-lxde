@@ -1,8 +1,0 @@
-Task: desktop-lxde
-Relevance: 4
-Parent: desktop
-Section: user
-Key:
-  kaisen-lxde
-Description: LXDE
- This task installs kaisen-lxde.
