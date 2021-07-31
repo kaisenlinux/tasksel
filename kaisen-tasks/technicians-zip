@@ -1,0 +1,8 @@
+Task: technicians-zip
+Relevance: 17
+Parent: technicians
+Section: user
+Key:
+  kaisen-zip
+Description: Install only compress/decompress tools
+ This task installs kaisen-zip.

@@ -1,0 +1,8 @@
+Task: technicians-usb
+Relevance: 14
+Parent: technicians
+Section: user
+Key:
+  kaisen-usb-boot
+Description: Install only make bootable USB tools
+ This task installs kaisen-usb-boot.

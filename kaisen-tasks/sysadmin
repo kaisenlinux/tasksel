@@ -1,0 +1,7 @@
+Task: sysadmin
+Relevance: 3
+Section: user
+Key:
+  kaisen-sysadmin-tools
+Description: Install all sysadmin tools
+ This task installs kaisen-sysadmin-tools.

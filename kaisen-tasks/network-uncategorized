@@ -1,0 +1,8 @@
+Task: network-uncategorized
+Relevance: 17
+Parent: network
+Section: user
+Key:
+  kaisen-network-uncategorized
+Description: Install only network miscellaneous tools
+ This task installs kaisen-network-uncategorized.

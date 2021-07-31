@@ -1,0 +1,8 @@
+Task: sysadmin-microsoft
+Relevance: 6
+Parent: sysadmin
+Section: user
+Key:
+  kaisen-microsoft-tools
+Description: Install only Microsoft AD analyze
+ This task installs kaisen-microsoft-tools.

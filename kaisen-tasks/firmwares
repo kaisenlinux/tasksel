@@ -1,0 +1,7 @@
+Task: firmwares
+Relevance: 8
+Section: user
+Key:
+  kaisen-firmwares
+Description: Adding more firmwares support
+ This task installs kaisen-firmware.

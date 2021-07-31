@@ -1,0 +1,8 @@
+Task: technicians-disks-analysis
+Relevance: 7
+Parent: technicians
+Section: user
+Key:
+  kaisen-disks-analysis
+Description: Install only disks analysis tools
+ This task installs kaisen-disks-analysis.
