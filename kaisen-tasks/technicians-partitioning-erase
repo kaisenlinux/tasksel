@@ -1,0 +1,8 @@
+Task: technicians-partitioning-erase
+Relevance: 10
+Parent: technicians
+Section: user
+Key:
+  kaisen-partitioning-erase
+Description: Install only partitioning and erasing tools
+ This task installs kaisen-partitioning-erase.

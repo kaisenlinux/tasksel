@@ -1,0 +1,8 @@
+Task: sysadmin-remote-administration
+Relevance: 7
+Parent: sysadmin
+Section: user
+Key:
+  kaisen-remote-administration
+Description: Install only remote adminstration tools
+ This task installs kaisen-remote-administration.

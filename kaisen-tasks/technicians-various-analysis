@@ -1,0 +1,8 @@
+Task: technicians-various-analysis
+Relevance: 15
+Parent: technicians
+Section: user
+Key:
+  kaisen-various-analysis
+Description: Install only various analysis tools
+ This task installs kaisen-various-analysis.

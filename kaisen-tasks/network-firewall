@@ -1,0 +1,8 @@
+Task: network-firewall
+Relevance: 5
+Parent: network
+Section: user
+Key:
+  kaisen-firewall-tools
+Description: Install only firewall tools
+ This task installs kaisen-firewall-tools.

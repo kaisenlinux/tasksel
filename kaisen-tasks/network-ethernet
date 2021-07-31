@@ -1,0 +1,8 @@
+Task: network-ethernet
+Relevance: 4
+Parent: network
+Section: user
+Key:
+  kaisen-ethernet-tools
+Description: Install only ethernet tools
+ This task installs kaisen-ethernet-tools.
