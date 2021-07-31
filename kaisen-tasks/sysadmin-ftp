@@ -1,8 +1,0 @@
-Task: sysadmin-ftp
-Relevance: 5
-Parent: sysadmin
-Section: user
-Key:
-  kaisen-ftp-clients
-Description: Install only FTP clients
- This task installs kaisen-ftp-clients.

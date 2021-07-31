@@ -1,8 +1,0 @@
-Task: network-tls
-Relevance: 14
-Parent: network
-Section: user
-Key:
-  kaisen-tls-tools
-Description: Install only SSL/TLS tools
- This task installs kaisen-tls-tools.

@@ -1,7 +1,0 @@
-Task: filesystems
-Relevance: 7
-Section: user
-Key:
-  kaisen-filesystems
-Description: Adding more filesystems support
- This task installs kaisen-filesystems.

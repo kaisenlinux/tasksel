@@ -1,7 +1,0 @@
-Task: services
-Relevance: 6
-Section: user
-Key:
-  kaisen-services-management
-Description: Install scripts and the services menu
- This task installs kaisen-services-management.

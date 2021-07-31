@@ -1,8 +1,0 @@
-Task: technicians-temperature
-Relevance: 13
-Parent: technicians
-Section: user
-Key:
-  kaisen-temperature-analysis
-Description: Install only temperature tools
- This task installs kaisen-temperature-tools.

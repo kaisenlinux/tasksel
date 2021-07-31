@@ -1,8 +1,0 @@
-Task: network-layer4
-Relevance: 9
-Parent: network
-Section: user
-Key:
-  kaisen-layer4-tools
-Description: Install only OSI layer 4 tools
- This task installs kaisen-layer4-tools.

@@ -1,8 +1,0 @@
-Task: network-monitoring
-Relevance: 10
-Parent: network
-Section: user
-Key:
-  kaisen-network-monitoring
-Description: Install only network monitoring tools
- This task installs kaisen-network-monitoring.

@@ -1,8 +1,0 @@
-Task: technicians-virus-analysis
-Relevance: 16
-Parent: technicians
-Section: user
-Key:
-  kaisen-virus-analysis
-Description: Install only virus analysis tools
- This task installs kaisen-virus-analysis.

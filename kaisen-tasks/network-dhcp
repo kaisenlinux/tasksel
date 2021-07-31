@@ -1,8 +1,0 @@
-Task: network-dhcp
-Relevance: 2
-Parent: network
-Section: user
-Key:
-  kaisen-dhcp-tools
-Description: Install only DHCP tools
- This task installs kaisen-dhcp-tools.

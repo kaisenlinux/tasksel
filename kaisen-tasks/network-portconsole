@@ -1,8 +1,0 @@
-Task: network-portconsole
-Relevance: 13
-Parent: network
-Section: user
-Key:
-  kaisen-portconsole-tools
-Description: Install only console port tools
- This task installs kaisen-portconsole-tools.

@@ -1,7 +1,0 @@
-Task: manpages
-Relevance: 90
-Section: user
-Key:
-  kaisen-manpages
-Description: Install offline manpages
- This task installs kaisen-manpages.
