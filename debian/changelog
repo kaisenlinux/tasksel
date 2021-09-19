@@ -1,3 +1,10 @@
+tasksel (3.68+kaisen7) kaisen-packages; urgency=medium
+
+  * Rename kaisen-tasks/sysadmin-sysops in kaisen-tasks/sysadmin-devops
+  * Update kaisen-tasks/sysadmin-devops task
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 20 Sep 2021 00:48:02 +0200
+
 tasksel (3.68+kaisen6) kaisen-packages; urgency=medium
 
   * Readd all tools tasks

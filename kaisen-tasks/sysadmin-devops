@@ -1,8 +1,8 @@
-Task: sysadmin-sysops
+Task: sysadmin-devops
 Relevance: 8
 Parent: sysadmin
 Section: user
 Key:
   kaisen-sysops-tools
-Description: Install only SysOps tools
+Description: Install only DevOps and Cloud tools
  This task installs kaisen-sysops-tools.
