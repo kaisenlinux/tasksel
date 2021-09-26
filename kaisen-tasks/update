@@ -1,0 +1,7 @@
+Task: update
+Relevance: 08
+Section: user
+Key:
+  kaisen-update
+Description: Install kaisen-update command
+ This task installs kaisen-update.
