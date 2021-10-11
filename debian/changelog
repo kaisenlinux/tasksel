@@ -1,3 +1,10 @@
+tasksel (3.68+kaisen9) kaisen-packages; urgency=medium
+
+  * Remove technicians-mount, technicians-zip and technicians-various
+    tasks
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 11 Oct 2021 03:15:52 +0200
+
 tasksel (3.68+kaisen8) kaisen-packages; urgency=medium
 
   * Rename sysadmin-devops task in devops

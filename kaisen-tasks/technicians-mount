@@ -1,8 +1,0 @@
-Task: technicians-mount
-Relevance: 09
-Parent: technicians
-Section: user
-Key:
-  kaisen-mount
-Description: Install only mount disks tools
- This task installs kaisen-mount.
