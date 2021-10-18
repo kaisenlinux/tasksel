@@ -1,6 +1,6 @@
-Task: network-dhcp
-Relevance: 02
-Parent: network
+Task: sysadmin-dhcp
+Relevance: 04
+Parent: sysadmin
 Section: user
 Key:
   kaisen-dhcp-tools

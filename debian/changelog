@@ -1,3 +1,13 @@
+tasksel (3.68+kaisen11) kaisen-packages; urgency=medium
+
+  * Rename network-dhcp in sysadmin-dhcp
+  * Rename network-dns in sysadmin-dns
+  * Rename network-tls in network-tls
+  * Rename devops task in sysops
+  * Move uncategorized in last section
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 18 Oct 2021 23:32:29 +0200
+
 tasksel (3.68+kaisen10) kaisen-packages; urgency=medium
 
   * Remove sysadmin-btrfs task

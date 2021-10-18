@@ -1,6 +1,6 @@
-Task: network-tls
-Relevance: 14
-Parent: network
+Task: sysadmin-tls
+Relevance: 09
+Parent: sysadmin
 Section: user
 Key:
   kaisen-tls-tools

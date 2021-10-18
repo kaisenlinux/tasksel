@@ -1,6 +1,6 @@
-Task: network-dns
-Relevance: 03
-Parent: network
+Task: sysadmin-dns
+Relevance: 05
+Parent: sysadmin
 Section: user
 Key:
   kaisen-dns-tools
