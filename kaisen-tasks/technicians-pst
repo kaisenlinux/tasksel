@@ -4,5 +4,5 @@ Parent: technicians
 Section: user
 Key:
   kaisen-pst-tools
-Description: Install only PST tools
+Description: Install only Outlook PST tools
  This task installs kaisen-pst-tools.

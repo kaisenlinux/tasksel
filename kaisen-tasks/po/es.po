@@ -1,472 +1,498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# tasksel task translation to spanish
-# Copyright (C) 2003-2007 Software in the Public Interest
-# This file is distributed under the same license as the tasksel package.
-#
-# Changes:
-# - Initial translation
-# 	Javier Fernandez-Sanguino Pena <jfs@debian.org>, 2003
-# - Updates
-# 	Javier Fernandez-Sanguino Pena <jfs@debian.org>, 2003-2007
-#
-#
-#  Traductores, si no conoce el formato PO, merece la pena leer la 
-#  documentación de gettext, especialmente las secciones dedicadas a este
-#  formato, por ejemplo ejecutando:
-#         info -n '(gettext)PO Files'
-#         info -n '(gettext)Header Entry'
-#
-# Equipo de traduccion al espanol, por favor lean antes de traducir
-# los siguientes documentos:
-#
-# - El proyecto de traduccion de Debian al espanol
-#   http://www.debian.org/intl/spanish/coordinacion
-#   especialmente las notas de traduccion en
-#   http://www.debian.org/intl/spanish/notas
-#
-# - La guía de traduccion de po's de debconf:
-#   /usr/share/doc/po-debconf/README-trans
-#   o http://www.debian.org/intl/l10n/po-debconf/README-trans
-#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: tasksel 1.40\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-31 17:50-0400\n"
-"PO-Revision-Date: 2010-08-08 02:48+0200\n"
-"Last-Translator: Javier Fernandez-Sanguino Pena <jfs@debian.org>\n"
-"Language-Team: Spanish <debian-l10n-spanish@lists.debian.org>\n"
+"POT-Creation-Date: 2021-10-30 11:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kevin Chevreuil- Kaisen <kaisen@kaisenlinux.org>\n"
+"Language-Team: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-POFile-SpellExtra: multi BIND PostgreSQL GNOME KDE aptitude Desktop\n"
-"X-POFile-SpellExtra: Environment LXDE SSH DNS SQL Xfce CIFS\n"
 
 #. Description
 #: ../po/debian-tasks.desc:1001
-msgid "Kali core packages"
-msgstr ""
+msgid "Select desktop environment (select this item has no effect) ==>"
+msgstr "Entorno de escritorio (la selección de este elemento no tiene ningún efecto) ==>"
+
+#. Description
+#: ../po/debian-tasks.desc:1001
+msgid "This task permit select desktop environment."
+msgstr "Esta tarea permite seleccionar el entorno de escritorio."
 
 #. Description
 #: ../po/debian-tasks.desc:2001
-msgid "Desktop environment [selecting this item has no effect]"
-msgstr ""
+msgid "KDE"
+msgstr "KDE"
 
 #. Description
 #: ../po/debian-tasks.desc:2001
-#, fuzzy
-#| msgid ""
-#| "This task provides basic \"desktop\" software using the LXDE desktop "
-#| "environment."
-msgid "This task is an heading grouping the various desktop environments."
-msgstr ""
-"Esta tarea ofrece los programas de «escritorio» básicos que utilizan LXDE."
+msgid "This task installs kaisen-kde."
+msgstr "Esta tarea instala kaisen-kde."
 
 #. Description
 #: ../po/debian-tasks.desc:3001
-msgid "GNOME"
-msgstr ""
-
-#. Description
-#: ../po/debian-tasks.desc:3001
-#, fuzzy
-#| msgid ""
-#| "This task provides basic \"desktop\" software using the GNOME desktop "
-#| "environment."
-msgid "This task installs the GNOME desktop environment."
-msgstr ""
-"Esta tarea ofrece los programas de «escritorio» básicos que utilizan GNOME."
-
-#. Description
-#: ../po/debian-tasks.desc:4001
-msgid "KDE Plasma"
-msgstr ""
-
-#. Description
-#: ../po/debian-tasks.desc:4001
-#, fuzzy
-#| msgid ""
-#| "This task provides basic \"desktop\" software using the LXDE desktop "
-#| "environment."
-msgid "This task installs the KDE Plasma desktop environment."
-msgstr ""
-"Esta tarea ofrece los programas de «escritorio» básicos que utilizan LXDE."
-
-#. Description
-#: ../po/debian-tasks.desc:5001
 msgid "LXDE"
-msgstr ""
+msgstr "LXDE"
+
+#. Description
+#: ../po/debian-tasks.desc:3001
+msgid "This task installs kaisen-lxde."
+msgstr "Esta tarea instala kaisen-lxde."
+
+#. Description
+#: ../po/debian-tasks.desc:4001
+msgid "MATE"
+msgstr "MATE"
+
+#. Description
+#: ../po/debian-tasks.desc:4001
+msgid "This task installs kaisen-mate."
+msgstr "Esta tarea instala kaisen-mate."
 
 #. Description
 #: ../po/debian-tasks.desc:5001
-#, fuzzy
-#| msgid ""
-#| "This task provides basic \"desktop\" software using the LXDE desktop "
-#| "environment."
-msgid "This task installs the LXDE desktop environment."
-msgstr ""
-"Esta tarea ofrece los programas de «escritorio» básicos que utilizan LXDE."
+msgid "XFCE"
+msgstr "XFCE"
+
+#. Description
+#: ../po/debian-tasks.desc:5001
+msgid "This task installs kaisen-xfce."
+msgstr "Esta tarea instala kaisen-xfce."
 
 #. Description
 #: ../po/debian-tasks.desc:6001
-msgid "MATE"
-msgstr ""
+msgid "Install offline documentation"
+msgstr "Instalar la documentación fuera de línea"
 
 #. Description
 #: ../po/debian-tasks.desc:6001
-#, fuzzy
-#| msgid ""
-#| "This task provides basic \"desktop\" software using the GNOME desktop "
-#| "environment."
-msgid "This task installs the MATE desktop environment."
-msgstr ""
-"Esta tarea ofrece los programas de «escritorio» básicos que utilizan GNOME."
+msgid "This task installs kaisen-documentation."
+msgstr "Esta tarea instala kaisen-documentation."
 
 #. Description
 #: ../po/debian-tasks.desc:7001
-#, fuzzy
-#| msgid "Xfce desktop environment"
-msgid "Xfce (Kali's default desktop environment)"
-msgstr "Entorno de escritorio de Xfce"
+msgid "Adding more filesystems support"
+msgstr "Añadir más soporte de sistemas de archivos"
 
 #. Description
 #: ../po/debian-tasks.desc:7001
-#, fuzzy
-#| msgid "This task installs software useful for a laptop."
-msgid "This task installs kali-desktop-xfce."
-msgstr "Esta tarea instala programas útiles para ordenadores portátiles."
+msgid "This task installs kaisen-filesystems."
+msgstr "Esta tarea instala kaisen-filesystems."
 
 #. Description
 #: ../po/debian-tasks.desc:8001
-msgid "Collection of tools [selecting this item has no effect]"
-msgstr ""
+msgid "Adding more firmwares support"
+msgstr "Añadir más soporte de firmwares"
 
 #. Description
 #: ../po/debian-tasks.desc:8001
-msgid "This task is an heading grouping generic metapackages."
-msgstr ""
+msgid "This task installs kaisen-firmwares."
+msgstr "Esta tarea instala kaisen-firmwares."
 
 #. Description
 #: ../po/debian-tasks.desc:9001
-msgid "default -- recommended tools (available in the live system)"
-msgstr ""
+msgid "Install offline manpages"
+msgstr "Instalar páginas de manual sin conexión"
 
 #. Description
 #: ../po/debian-tasks.desc:9001
-#, fuzzy
-#| msgid "This task installs software useful for a laptop."
-msgid "This task installs kali-linux-default."
-msgstr "Esta tarea instala programas útiles para ordenadores portátiles."
+msgid "This task installs kaisen-manpages."
+msgstr "Esta tarea instala kaisen-manpages."
 
 #. Description
 #: ../po/debian-tasks.desc:10001
-msgid ""
-"everything -- almost all tools [>= 7 GB to download, >= 16 GB installed]"
-msgstr ""
+msgid "Install miscellaneous tools"
+msgstr "Instalar herramientas diversas"
 
 #. Description
 #: ../po/debian-tasks.desc:10001
-msgid "This task installs kali-linux-everything."
-msgstr ""
+msgid "This task installs kaisen-miscellaneous."
+msgstr "Esta tarea instala kaisen-miscellaneous."
 
 #. Description
 #: ../po/debian-tasks.desc:11001
-msgid "large -- default selection plus additional tools"
-msgstr ""
+msgid "Install all network tools"
+msgstr "Instalar todas las herramientas de red"
 
 #. Description
 #: ../po/debian-tasks.desc:11001
-msgid "This task installs kali-linux-large."
-msgstr ""
+msgid "This task installs kaisen-network-tools."
+msgstr "Esta tarea instala kaisen-network-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:12001
-msgid "top10 -- the 10 most popular tools"
-msgstr ""
+msgid "Install only ethernet tools"
+msgstr "Instalar sólo herramientas ethernet"
 
 #. Description
 #: ../po/debian-tasks.desc:12001
-#, fuzzy
-#| msgid "This task installs software useful for a laptop."
-msgid "This task installs kali-tools-top10 and kali-linux-core."
-msgstr "Esta tarea instala programas útiles para ordenadores portátiles."
+msgid "This task installs kaisen-ethernet-tools."
+msgstr "Esta tarea instala kaisen-ethernet-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:13001
-msgid "standard system utilities"
-msgstr "Utilidades estándar del sistema"
+msgid "Install only GNS3 tools"
+msgstr "Instalar sólo las herramientas GNS3"
 
 #. Description
 #: ../po/debian-tasks.desc:13001
-msgid ""
-"This task sets up a basic user environment, providing a reasonably small "
-"selection of services and tools usable on the command line."
-msgstr ""
-"Esta tarea prepara un entorno básico de usuario que ofrece un conjunto "
-"razonable de servicios y herramientas que pueden utilizarse desde la línea "
-"de órdenes."
+msgid "This task installs kaisen-gns3."
+msgstr "Esta tarea instala kaisen-gns3."
 
 #. Description
 #: ../po/debian-tasks.desc:14001
-msgid "Install tools by purpose [selecting this item has no effect]"
-msgstr ""
+msgid "Install only OSI layer 2 tools"
+msgstr "Instalar sólo las herramientas de la capa 2 de OSI"
 
 #. Description
 #: ../po/debian-tasks.desc:14001
-msgid "This task is a heading grouping kali-tools-* metapackages."
-msgstr ""
+msgid "This task installs kaisen-layer2-tools."
+msgstr "Esta tarea instala kaisen-layer2-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:15001
-msgid "Database assessment"
-msgstr ""
+msgid "Install only OSI layer 3 tools"
+msgstr "Instalar sólo las herramientas de la capa 3 de OSI"
 
 #. Description
 #: ../po/debian-tasks.desc:15001
-msgid "This task installs kali-tools-database."
-msgstr ""
+msgid "This task installs kaisen-layer3-tools."
+msgstr "Esta tarea instala kaisen-layer3-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:16001
-msgid "Exploitation"
-msgstr ""
+msgid "Install only OSI layer 4 tools"
+msgstr "Instalar sólo las herramientas de la capa 4 de OSI"
 
 #. Description
 #: ../po/debian-tasks.desc:16001
-#, fuzzy
-#| msgid "This task installs software useful for a laptop."
-msgid "This task installs kali-tools-exploitation."
-msgstr "Esta tarea instala programas útiles para ordenadores portátiles."
+msgid "This task installs kaisen-layer4-tools."
+msgstr "Esta tarea instala kaisen-layer4-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:17001
-msgid "Forensics"
-msgstr ""
+msgid "Install only network monitoring tools"
+msgstr "Instalar sólo herramientas de supervisión de la red"
 
 #. Description
 #: ../po/debian-tasks.desc:17001
-msgid "This task installs kali-tools-forensics."
-msgstr ""
+msgid "This task installs kaisen-network-monitoring."
+msgstr "Esta tarea instala kaisen-network-monitoring."
 
 #. Description
 #: ../po/debian-tasks.desc:18001
-msgid "Information gathering"
-msgstr ""
+msgid "Install only network PCAP tools"
+msgstr "Instalar sólo herramientas PCAP de red"
 
 #. Description
 #: ../po/debian-tasks.desc:18001
-msgid "This task installs kali-tools-information-gathering."
-msgstr ""
+msgid "This task installs kaisen-pcap-tools."
+msgstr "Esta tarea instala kaisen-pcap-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:19001
-msgid "Password cracking"
-msgstr ""
+msgid "Install only console port tools"
+msgstr "Instalar sólo las herramientas del puerto de la consola"
 
 #. Description
 #: ../po/debian-tasks.desc:19001
-msgid "This task installs kali-tools-passwords."
-msgstr ""
+msgid "This task installs kaisen-portconsole-tools."
+msgstr "Esta tarea instala kaisen-portconsole-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:20001
-msgid "Post exploitation"
-msgstr ""
+msgid "Install only network scanners tools"
+msgstr "Instalar sólo herramientas de escáner de red"
 
 #. Description
 #: ../po/debian-tasks.desc:20001
-#, fuzzy
-#| msgid "This task installs software useful for a laptop."
-msgid "This task installs kali-tools-post-exploitation."
-msgstr "Esta tarea instala programas útiles para ordenadores portátiles."
+msgid "This task installs kaisen-network-scanners."
+msgstr "Esta tarea instala kaisen-network-scanners."
 
 #. Description
 #: ../po/debian-tasks.desc:21001
-msgid "Reporting"
-msgstr ""
+msgid "Install only network miscellaneous tools"
+msgstr "Instalar sólo las herramientas diversas de la red"
 
 #. Description
 #: ../po/debian-tasks.desc:21001
-msgid "This task installs kali-tools-reporting."
-msgstr ""
+msgid "This task installs kaisen-network-uncategorized."
+msgstr "Esta tarea instala kaisen-network-uncategorized."
 
 #. Description
 #: ../po/debian-tasks.desc:22001
-msgid "Reverse engineering"
-msgstr ""
+msgid "Install only VPN clients"
+msgstr "Instalar sólo clientes VPN"
 
 #. Description
 #: ../po/debian-tasks.desc:22001
-msgid "This task installs kali-tools-reverse-engineering."
-msgstr ""
+msgid "This task installs kaisen-vpn-tools."
+msgstr "Esta tarea instala kaisen-vpn-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:23001
-msgid "Sniffing and spoofing"
-msgstr ""
+msgid "Install only Wi-Fi tools"
+msgstr "Instalar sólo herramientas Wi-Fi"
 
 #. Description
 #: ../po/debian-tasks.desc:23001
-msgid "This task installs kali-tools-sniffing-spoofing."
-msgstr ""
+msgid "This task installs kaisen-wifi-tools."
+msgstr "Esta tarea instala kaisen-wifi-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:24001
-msgid "Social engineering"
-msgstr ""
+msgid "Install scripts and the services menu"
+msgstr "Instalar scripts y el menú de servicios"
 
 #. Description
 #: ../po/debian-tasks.desc:24001
-msgid "This task installs kali-tools-social-engineering."
-msgstr ""
+msgid "This task installs kaisen-services-management."
+msgstr "Esta tarea instala kaisen-services-management."
 
 #. Description
 #: ../po/debian-tasks.desc:25001
-msgid "Vulnerability analysis"
-msgstr ""
+msgid "Install all sysadmin tools"
+msgstr "Instalar todas las herramientas de administración del sistema"
 
 #. Description
 #: ../po/debian-tasks.desc:25001
-#, fuzzy
-#| msgid "This task installs software useful for a laptop."
-msgid "This task installs kali-tools-vulnerability."
-msgstr "Esta tarea instala programas útiles para ordenadores portátiles."
+msgid "This task installs kaisen-sysadmin-tools."
+msgstr "Esta tarea instala kaisen-sysadmin-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:26001
-msgid "Web applications assessment"
-msgstr ""
+msgid "Install only backup tools"
+msgstr "Instalar sólo herramientas de copia de seguridad"
 
 #. Description
 #: ../po/debian-tasks.desc:26001
-msgid "This task installs kali-tools-web."
-msgstr ""
+msgid "This task installs kaisen-backup-tools."
+msgstr "Esta tarea instala kaisen-backup-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:27001
-msgid "Wireless"
-msgstr ""
+msgid "Install only DHCP tools"
+msgstr "Instalar sólo herramientas DHCP"
 
 #. Description
 #: ../po/debian-tasks.desc:27001
-msgid "This task installs kali-tools-wireless."
-msgstr ""
+msgid "This task installs kaisen-dhcp-tools."
+msgstr "Esta tarea instala kaisen-dhcp-tools."
 
-#~ msgid "manual package selection"
-#~ msgstr "selección manual de paquetes"
+#. Description
+#: ../po/debian-tasks.desc:28001
+msgid "Install only DNS tools"
+msgstr "Instalar sólo herramientas DNS"
 
-#~ msgid "Manually select packages to install in aptitude."
-#~ msgstr "Seleccionar los paquetes a instalar manualmente con aptitude."
+#. Description
+#: ../po/debian-tasks.desc:28001
+msgid "This task installs kaisen-dns-tools."
+msgstr "Esta tarea instala kaisen-dns-tools."
 
-#~ msgid "SQL database"
-#~ msgstr "Base de datos SQL"
+#. Description
+#: ../po/debian-tasks.desc:29001
+msgid "Install only FTP clients"
+msgstr "Instalar sólo clientes FTP"
 
-#~ msgid ""
-#~ "This task selects client and server packages for the PostgreSQL database."
-#~ msgstr ""
-#~ "Esta tarea selecciona paquetes clientes y servidor para la base de datos "
-#~ "PostgreSQL."
+#. Description
+#: ../po/debian-tasks.desc:29001
+msgid "This task installs kaisen-ftp-clients."
+msgstr "Esta tarea instala kaisen-ftp-clients."
 
-#~ msgid ""
-#~ "PostgreSQL is an SQL relational database, offering increasing SQL92 "
-#~ "compliance and some SQL3 features.  It is suitable for use with multi-"
-#~ "user database access, through its facilities for transactions and fine-"
-#~ "grained locking."
-#~ msgstr ""
-#~ "PostgreSQL es una base de datos relacional que es conforme al estándar "
-#~ "SQL92 e incluye algunas funcionalidades de SQL3. Es apropiada para ser "
-#~ "utilizada como una base de datos multi-usuario, gracias a su "
-#~ "funcionalidad de transacciones y de bloqueo de grano fino."
+#. Description
+#: ../po/debian-tasks.desc:30001
+msgid "Install only Microsoft AD analyze"
+msgstr "Instalar sólo Microsoft AD analizar"
 
-#~ msgid "Graphical desktop environment"
-#~ msgstr "Entorno de escritorio gráfico"
+#. Description
+#: ../po/debian-tasks.desc:30001
+msgid "This task installs kaisen-microsoft-tools."
+msgstr "Esta tarea instala kaisen-microsoft-tools."
 
-#~ msgid ""
-#~ "This task provides basic desktop software and serves as a basis for the "
-#~ "GNOME and KDE desktop tasks."
-#~ msgstr ""
-#~ "Esta tarea incluye los programas de escritorio básicos y sirve como base "
-#~ "para las tareas de GNOME y KDE."
+#. Description
+#: ../po/debian-tasks.desc:31001
+msgid "Install only remote adminstration tools"
+msgstr "Instalar sólo herramientas de administración remota"
 
-#~ msgid "DNS server"
-#~ msgstr "Servidor de DNS"
+#. Description
+#: ../po/debian-tasks.desc:31001
+msgid "This task installs kaisen-remote-administration."
+msgstr "Esta tarea instala kaisen-remote-administration."
 
-#~ msgid ""
-#~ "Selects the BIND DNS server, and related documentation and utility "
-#~ "packages."
-#~ msgstr ""
-#~ "Selecciona el servidor de DNS BIND, así como paquetes con documentación y "
-#~ "utilidades relacionados."
+#. Description
+#: ../po/debian-tasks.desc:32001
+msgid "Install only SSL/TLS tools"
+msgstr "Instalar sólo herramientas SSL/TLS"
 
-#~ msgid "File server"
-#~ msgstr "Servidor de ficheros"
+#. Description
+#: ../po/debian-tasks.desc:32001
+msgid "This task installs kaisen-tls-tools."
+msgstr "Esta tarea instala kaisen-tls-tools."
 
-#~ msgid ""
-#~ "This task sets up your system to be a file server, supporting both CIFS "
-#~ "and NFS."
-#~ msgstr ""
-#~ "Esta tarea prepara su sistema para que sea un servidor de ficheros, "
-#~ "ofreciendo tanto acceso CIFS como NFS."
+#. Description
+#: ../po/debian-tasks.desc:33001
+msgid "Install only sysadmin miscellaneous tools"
+msgstr "Instalar sólo las herramientas misceláneas de sysadmin"
 
-#~ msgid "GNOME desktop environment"
-#~ msgstr "Entorno de escritorio de GNOME"
+#. Description
+#: ../po/debian-tasks.desc:33001
+msgid "This task installs kaisen-sysadmin-uncategorized."
+msgstr "Esta tarea instala kaisen-sysadmin-uncategorized."
 
-#~ msgid "KDE desktop environment"
-#~ msgstr "Entorno de KDE"
+#. Description
+#: ../po/debian-tasks.desc:34001
+msgid "Install only virtualization tools"
+msgstr "Instalar sólo herramientas de virtualización"
 
-#~ msgid ""
-#~ "This task provides basic \"desktop\" software using the K Desktop "
-#~ "Environment."
-#~ msgstr ""
-#~ "Esta tarea ofrece los programas de «escritorio» básicos que utilizan el "
-#~ "«K Desktop Environment»."
+#. Description
+#: ../po/debian-tasks.desc:34001
+msgid "This task installs kaisen-virtualization."
+msgstr "Esta tarea instala kaisen-virtualización."
 
-#~ msgid "Laptop"
-#~ msgstr "Ordenador portátil"
+#. Description
+#: ../po/debian-tasks.desc:35001
+msgid "Install DevOps and Cloud tools"
+msgstr "Instalar herramientas DevOps y Cloud"
 
-#~ msgid "LXDE desktop environment"
-#~ msgstr "Entorno de escritorio de LXDE"
+#. Description
+#: ../po/debian-tasks.desc:35001
+msgid "This task installs kaisen-sysops-tools."
+msgstr "Esta tarea instala kaisen-sysops-tools."
 
-#~ msgid "Mail server"
-#~ msgstr "Servidor de correo"
+#. Description
+#: ../po/debian-tasks.desc:36001
+msgid "Install all maintenance tools"
+msgstr "Instalar todas las herramientas de mantenimiento"
 
-#~ msgid ""
-#~ "This task selects a variety of package useful for a general purpose mail "
-#~ "server system."
-#~ msgstr ""
-#~ "Esta tarea incluye un conjunto de paquetes útil para instalar un servidor "
-#~ "de correo de propósito general."
+#. Description
+#: ../po/debian-tasks.desc:36001
+msgid "This task installs kaisen-technicians-tools."
+msgstr "Esta tarea instala kaisen-technicians-tools."
 
-#~ msgid "Print server"
-#~ msgstr "Servidor de impresoras"
+#. Description
+#: ../po/debian-tasks.desc:37001
+msgid "Install only cloning tools"
+msgstr "Instalar sólo herramientas de clonación"
 
-#~ msgid "This task sets up your system to be a print server."
-#~ msgstr ""
-#~ "Esta tarea prepara su sistema para convertirlo en un servidor de "
-#~ "impresoras."
+#. Description
+#: ../po/debian-tasks.desc:37001
+msgid "This task installs kaisen-cloning-tools."
+msgstr "Esta tarea instala kaisen-cloning-tools."
 
-#~ msgid "SSH server"
-#~ msgstr "Servidor SSH"
+#. Description
+#: ../po/debian-tasks.desc:38001
+msgid "Install only data protection tools"
+msgstr "Instalar sólo herramientas de protección de datos"
 
-#~ msgid ""
-#~ "This task sets up your system to be remotely accessed through SSH "
-#~ "connections."
-#~ msgstr ""
-#~ "Esta tarea prepara su sistema para que pueda accederse a él de forma "
-#~ "remota a través de conexiones SSH."
+#. Description
+#: ../po/debian-tasks.desc:38001
+msgid "This task installs kaisen-data-protection."
+msgstr "Esta tarea instala kaisen-data-protection."
 
-#~ msgid "Web server"
-#~ msgstr "Servidor de web"
+#. Description
+#: ../po/debian-tasks.desc:39001
+msgid "Install only data recovery tools"
+msgstr "Instalar sólo herramientas de recuperación de datos"
 
-#~ msgid ""
-#~ "This task selects packages useful for a general purpose web server system."
-#~ msgstr ""
-#~ "Esta tarea selecciona paquetes útiles para instalar un servidor de web de "
-#~ "propósito general."
+#. Description
+#: ../po/debian-tasks.desc:39001
+msgid "This task installs kaisen-data-recovery."
+msgstr "Esta tarea instala kaisen-data-recovery."
 
-#~ msgid ""
-#~ "This task provides basic \"desktop\" software using the Xfce desktop "
-#~ "environment."
-#~ msgstr ""
-#~ "Esta tarea ofrece los programas de «escritorio» básicos que utilizan Xfce."
+#. Description
+#: ../po/debian-tasks.desc:40001
+msgid "Install only disks analysis tools"
+msgstr "Instalar sólo herramientas de análisis de discos"
+
+#. Description
+#: ../po/debian-tasks.desc:40001
+msgid "This task installs kaisen-disks-analysis."
+msgstr "Esta tarea instala kaisen-disks-analysis."
+
+#. Description
+#: ../po/debian-tasks.desc:41001
+msgid "Install only hardware tools"
+msgstr "Instalar sólo herramientas de hardware"
+
+#. Description
+#: ../po/debian-tasks.desc:41001
+msgid "This task installs kaisen-hardware."
+msgstr "Esta tarea instala kaisen-hardware."
+
+#. Description
+#: ../po/debian-tasks.desc:42001
+msgid "Install only partitioning and erasing tools"
+msgstr "Instalar sólo herramientas de partición y borrado"
+
+#. Description
+#: ../po/debian-tasks.desc:42001
+msgid "This task installs kaisen-partitioning-erase."
+msgstr "Esta tarea instala kaisen-partitioning-erase."
+
+#. Description
+#: ../po/debian-tasks.desc:43001
+msgid "Install only password tools"
+msgstr "Instalar sólo herramientas de contraseña"
+
+#. Description
+#: ../po/debian-tasks.desc:43001
+msgid "This task installs kaisen-password-tools."
+msgstr "Esta tarea instala kaisen-password-tools."
+
+#. Description
+#: ../po/debian-tasks.desc:44001
+msgid "Install only Outlook PST tools"
+msgstr "Instalar sólo las herramientas de Outlook PST"
+
+#. Description
+#: ../po/debian-tasks.desc:44001
+msgid "This task installs kaisen-pst-tools."
+msgstr "Esta tarea instala kaisen-pst-tools."
+
+#. Description
+#: ../po/debian-tasks.desc:45001
+msgid "Install only temperature tools"
+msgstr "Instalar sólo herramientas de temperatura"
+
+#. Description
+#: ../po/debian-tasks.desc:45001
+msgid "This task installs kaisen-temperature-tools."
+msgstr "Esta tarea instala kaisen-temperature-tools."
+
+#. Description
+#: ../po/debian-tasks.desc:46001
+msgid "Install only make bootable USB tools"
+msgstr "Instalar sólo hacer herramientas USB de arranque"
+
+#. Description
+#: ../po/debian-tasks.desc:46001
+msgid "This task installs kaisen-usb-boot."
+msgstr "Esta tarea instala kaisen-usb-boot."
+
+#. Description
+#: ../po/debian-tasks.desc:47001
+msgid "Install only virus analysis tools"
+msgstr "Instalar sólo herramientas de análisis de virus"
+
+#. Description
+#: ../po/debian-tasks.desc:47001
+msgid "This task installs kaisen-virus-analysis."
+msgstr "Esta tarea instala kaisen-virus-analysis."
+
+#. Description
+#: ../po/debian-tasks.desc:48001
+msgid "Install kaisen-update command"
+msgstr "Instalar el comando kaisen-update"
+
+#. Description
+#: ../po/debian-tasks.desc:48001
+msgid "This task installs kaisen-update."
+msgstr "Esta tarea instala kaisen-update."

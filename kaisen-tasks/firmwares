@@ -4,4 +4,4 @@ Section: user
 Key:
   kaisen-firmwares
 Description: Adding more firmwares support
- This task installs kaisen-firmware.
+ This task installs kaisen-firmwares.
