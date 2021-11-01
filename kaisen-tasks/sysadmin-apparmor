@@ -1,0 +1,8 @@
+Task: sysadmin-apparmor
+Relevance: 12
+Parent: sysadmin
+Section: user
+Key:
+  kaisen-apparmor
+Description: Install only apparmor profiles and tools
+ This task installs kaisen-apparmor.
