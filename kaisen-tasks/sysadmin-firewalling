@@ -1,0 +1,8 @@
+Task: sysadmin-firewalling
+Relevance: 11
+Parent: sysadmin
+Section: user
+Key:
+  kaisen-firewalling
+Description: Install only firewalling tools
+ This task installs kaisen-firewalling.

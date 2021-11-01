@@ -1,3 +1,11 @@
+tasksel (3.68+kaisen13) kaisen-packages; urgency=medium
+
+  * Update translations
+  * Add AppArmor and firewalling tasks
+  * Add firewalling and AppArmor translations
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 01 Nov 2021 04:16:27 +0200
+
 tasksel (3.68+kaisen12) kaisen-packages; urgency=medium
 
   * Add fr, es, it and de translations
