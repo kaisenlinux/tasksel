@@ -1,0 +1,8 @@
+Task: desktop-lxqt
+Relevance: 04
+Parent: desktop
+Section: user
+Key:
+  kaisen-lxqt
+Description: LXQT
+ This task installs kaisen-lxqt.

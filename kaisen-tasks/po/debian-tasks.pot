@@ -39,12 +39,12 @@ msgstr ""
 
 #. Description
 #: ../po/debian-tasks.desc:3001
-msgid "LXDE"
+msgid "LXQT"
 msgstr ""
 
 #. Description
 #: ../po/debian-tasks.desc:3001
-msgid "This task installs kaisen-lxde."
+msgid "This task installs kaisen-lxqt."
 msgstr ""
 
 #. Description

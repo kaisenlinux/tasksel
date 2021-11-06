@@ -39,13 +39,13 @@ msgstr "Esta tarea instala kaisen-kde."
 
 #. Description
 #: ../po/debian-tasks.desc:3001
-msgid "LXDE"
-msgstr "LXDE"
+msgid "LXQT"
+msgstr "LXQT"
 
 #. Description
 #: ../po/debian-tasks.desc:3001
-msgid "This task installs kaisen-lxde."
-msgstr "Esta tarea instala kaisen-lxde."
+msgid "This task installs kaisen-lxqt."
+msgstr "Esta tarea instala kaisen-lxqt."
 
 #. Description
 #: ../po/debian-tasks.desc:4001
