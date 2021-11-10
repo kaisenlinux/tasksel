@@ -1,0 +1,8 @@
+Task: sysadmin-databases
+Relevance: 13
+Parent: sysadmin
+Section: user
+Key:
+  kaisen-databases-tools
+Description: Install only databases clients
+ This task installs kaisen-databases-tools.

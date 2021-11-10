@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-01 02:55+0100\n"
+"POT-Creation-Date: 2021-11-09 16:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>\n"
 "Language-Team: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>\n"
@@ -20,7 +20,8 @@ msgstr ""
 #. Description
 #: ../po/debian-tasks.desc:1001
 msgid "Select desktop environment (select this item has no effect) ==>"
-msgstr "Seleccionar ambiente de trabalho (seleccionar este item não tem efeito) ==>"
+msgstr ""
+"Seleccionar ambiente de trabalho (seleccionar este item não tem efeito) ==>"
 
 #. Description
 #: ../po/debian-tasks.desc:1001
@@ -289,230 +290,240 @@ msgstr "Esta tarefa instala kaisen-backup-tools."
 
 #. Description
 #: ../po/debian-tasks.desc:28001
+msgid "Install only databases clients"
+msgstr "Instalar apenas clientes de bases de dados"
+
+#. Description
+#: ../po/debian-tasks.desc:28001
+msgid "This task installs kaisen-databases-tools."
+msgstr "Esta tarefa instala kaisen-databases-tools."
+
+#. Description
+#: ../po/debian-tasks.desc:29001
 msgid "Install only DHCP tools"
 msgstr "Instalar apenas ferramentas DHCP"
 
 #. Description
-#: ../po/debian-tasks.desc:28001
+#: ../po/debian-tasks.desc:29001
 msgid "This task installs kaisen-dhcp-tools."
 msgstr "Esta tarefa instala kaisen-dhcp-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:29001
+#: ../po/debian-tasks.desc:30001
 msgid "Install only DNS tools"
 msgstr "Instalar apenas ferramentas DNS"
 
 #. Description
-#: ../po/debian-tasks.desc:29001
+#: ../po/debian-tasks.desc:30001
 msgid "This task installs kaisen-dns-tools."
 msgstr "Esta tarefa instala kaisen-dns-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:30001
+#: ../po/debian-tasks.desc:31001
 msgid "Install only firewalling tools"
 msgstr "Instalar apenas ferramentas de firewalling"
 
 #. Description
-#: ../po/debian-tasks.desc:30001
+#: ../po/debian-tasks.desc:31001
 msgid "This task installs kaisen-firewalling."
 msgstr "Esta tarefa instala kaisen-firewalling."
 
 #. Description
-#: ../po/debian-tasks.desc:31001
+#: ../po/debian-tasks.desc:32001
 msgid "Install only FTP clients"
 msgstr "Instalar apenas clientes FTP"
 
 #. Description
-#: ../po/debian-tasks.desc:31001
+#: ../po/debian-tasks.desc:32001
 msgid "This task installs kaisen-ftp-clients."
-msgstr "Esta tarefa instala kaisen-dns-tools."
+msgstr "Esta tarefa instala kaisen-ftp-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:32001
+#: ../po/debian-tasks.desc:33001
 msgid "Install only Microsoft AD analyze"
 msgstr "Instalar apenas análise do Microsoft AD"
 
 #. Description
-#: ../po/debian-tasks.desc:32001
+#: ../po/debian-tasks.desc:33001
 msgid "This task installs kaisen-microsoft-tools."
 msgstr "Esta tarefa instala kaisen-microsoft-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:33001
+#: ../po/debian-tasks.desc:34001
 msgid "Install only remote adminstration tools"
 msgstr "Instalar apenas ferramentas de administração remota"
 
 #. Description
-#: ../po/debian-tasks.desc:33001
+#: ../po/debian-tasks.desc:34001
 msgid "This task installs kaisen-remote-administration."
 msgstr "Esta tarefa instala kaisen-remote-administration."
 
 #. Description
-#: ../po/debian-tasks.desc:34001
+#: ../po/debian-tasks.desc:35001
 msgid "Install only SSL/TLS tools"
 msgstr "Instalar apenas ferramentas SSL/TLS"
 
 #. Description
-#: ../po/debian-tasks.desc:34001
+#: ../po/debian-tasks.desc:35001
 msgid "This task installs kaisen-tls-tools."
 msgstr "Esta tarefa instala kaisen-tls-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:35001
+#: ../po/debian-tasks.desc:36001
 msgid "Install only sysadmin miscellaneous tools"
 msgstr "Instalar apenas ferramentas diversas do sysadmin"
 
 #. Description
-#: ../po/debian-tasks.desc:35001
+#: ../po/debian-tasks.desc:36001
 msgid "This task installs kaisen-sysadmin-uncategorized."
 msgstr "Esta tarefa instala kaisen-sysadmin-uncategorized."
 
 #. Description
-#: ../po/debian-tasks.desc:36001
+#: ../po/debian-tasks.desc:37001
 msgid "Install only virtualization tools"
 msgstr "Instalar apenas ferramentas de virtualização"
 
 #. Description
-#: ../po/debian-tasks.desc:36001
+#: ../po/debian-tasks.desc:37001
 msgid "This task installs kaisen-virtualization."
 msgstr "Esta tarefa instala kaisen-virtualization."
 
 #. Description
-#: ../po/debian-tasks.desc:37001
+#: ../po/debian-tasks.desc:38001
 msgid "Install DevOps and Cloud tools"
 msgstr "Instalar DevOps e ferramentas Cloud"
 
 #. Description
-#: ../po/debian-tasks.desc:37001
+#: ../po/debian-tasks.desc:38001
 msgid "This task installs kaisen-sysops-tools."
 msgstr "Esta tarefa instala kaisen-sysops-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:38001
+#: ../po/debian-tasks.desc:39001
 msgid "Install all maintenance tools"
 msgstr "Instalar todas as ferramentas de manutenção"
 
 #. Description
-#: ../po/debian-tasks.desc:38001
+#: ../po/debian-tasks.desc:39001
 msgid "This task installs kaisen-technicians-tools."
 msgstr "Esta tarefa instala kaisen-technicians-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:39001
+#: ../po/debian-tasks.desc:40001
 msgid "Install only cloning tools"
 msgstr "Instalar apenas ferramentas de clonagem"
 
 #. Description
-#: ../po/debian-tasks.desc:39001
+#: ../po/debian-tasks.desc:40001
 msgid "This task installs kaisen-cloning-tools."
 msgstr "Esta tarefa instala kaisen-cloning-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:40001
+#: ../po/debian-tasks.desc:41001
 msgid "Install only data protection tools"
 msgstr "Instalar apenas ferramentas de protecção de dados"
 
 #. Description
-#: ../po/debian-tasks.desc:40001
+#: ../po/debian-tasks.desc:41001
 msgid "This task installs kaisen-data-protection."
 msgstr "Esta tarefa instala kaisen-data-protection."
 
 #. Description
-#: ../po/debian-tasks.desc:41001
+#: ../po/debian-tasks.desc:42001
 msgid "Install only data recovery tools"
 msgstr "Instalar apenas ferramentas de recuperação de dados"
 
 #. Description
-#: ../po/debian-tasks.desc:41001
+#: ../po/debian-tasks.desc:42001
 msgid "This task installs kaisen-data-recovery."
 msgstr "Esta tarefa instala kaisen-data-recovery."
 
 #. Description
-#: ../po/debian-tasks.desc:42001
+#: ../po/debian-tasks.desc:43001
 msgid "Install only disks analysis tools"
 msgstr "Instalar apenas ferramentas de análise de discos"
 
 #. Description
-#: ../po/debian-tasks.desc:42001
+#: ../po/debian-tasks.desc:43001
 msgid "This task installs kaisen-disks-analysis."
 msgstr "Esta tarefa instala kaisen-disks-analysis."
 
 #. Description
-#: ../po/debian-tasks.desc:43001
+#: ../po/debian-tasks.desc:44001
 msgid "Install only hardware tools"
 msgstr "Instalar apenas ferramentas de hardware"
 
 #. Description
-#: ../po/debian-tasks.desc:43001
+#: ../po/debian-tasks.desc:44001
 msgid "This task installs kaisen-hardware."
 msgstr "Esta tarefa instala kaisen-hardware."
 
 #. Description
-#: ../po/debian-tasks.desc:44001
+#: ../po/debian-tasks.desc:45001
 msgid "Install only partitioning and erasing tools"
 msgstr "Instalar apenas ferramentas de partição e apagamento"
 
 #. Description
-#: ../po/debian-tasks.desc:44001
+#: ../po/debian-tasks.desc:45001
 msgid "This task installs kaisen-partitioning-erase."
 msgstr "Esta tarefa instala kaisen-partitioning-erase."
 
 #. Description
-#: ../po/debian-tasks.desc:45001
+#: ../po/debian-tasks.desc:46001
 msgid "Install only password tools"
 msgstr "Instalar apenas ferramentas de senha"
 
 #. Description
-#: ../po/debian-tasks.desc:45001
+#: ../po/debian-tasks.desc:46001
 msgid "This task installs kaisen-password-tools."
 msgstr "Esta tarefa instala kaisen-password-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:46001
+#: ../po/debian-tasks.desc:47001
 msgid "Install only Outlook PST tools"
 msgstr "Instalar apenas ferramentas PST do Outlook"
 
 #. Description
-#: ../po/debian-tasks.desc:46001
+#: ../po/debian-tasks.desc:47001
 msgid "This task installs kaisen-pst-tools."
 msgstr "Esta tarefa instala kaisen-pst-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:47001
+#: ../po/debian-tasks.desc:48001
 msgid "Install only temperature tools"
 msgstr "Instalar apenas ferramentas de temperatura"
 
 #. Description
-#: ../po/debian-tasks.desc:47001
+#: ../po/debian-tasks.desc:48001
 msgid "This task installs kaisen-temperature-tools."
 msgstr "Esta tarefa instala kaisen-temperature-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:48001
+#: ../po/debian-tasks.desc:49001
 msgid "Install only make bootable USB tools"
 msgstr "Instalar apenas ferramentas USB bootáveis"
 
 #. Description
-#: ../po/debian-tasks.desc:48001
+#: ../po/debian-tasks.desc:49001
 msgid "This task installs kaisen-usb-boot."
 msgstr "Esta tarefa instala kaisen-usb-boot."
 
 #. Description
-#: ../po/debian-tasks.desc:49001
+#: ../po/debian-tasks.desc:50001
 msgid "Install only virus analysis tools"
 msgstr "Instalar apenas ferramentas de análise de vírus"
 
 #. Description
-#: ../po/debian-tasks.desc:49001
+#: ../po/debian-tasks.desc:50001
 msgid "This task installs kaisen-virus-analysis."
 msgstr "Esta tarefa instala kaisen-virus-analysis."
 
 #. Description
-#: ../po/debian-tasks.desc:50001
+#: ../po/debian-tasks.desc:51001
 msgid "Install kaisen-update command"
 msgstr "Instalar o comando kaisen-update"
 
 #. Description
-#: ../po/debian-tasks.desc:50001
+#: ../po/debian-tasks.desc:51001
 msgid "This task installs kaisen-update."
 msgstr "Esta tarefa instala kaisen-virus-analysis."
