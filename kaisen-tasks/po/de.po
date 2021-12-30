@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 16:22+0100\n"
+"POT-Creation-Date: 2021-12-29 07:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>\n"
 "Language-Team: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>\n"
@@ -451,80 +451,90 @@ msgstr "Mit dieser Aufgabe wird kaisen-disks-analysis installiert."
 
 #. Description
 #: ../po/debian-tasks.desc:44001
+msgid "Install only duplicates files analysis tools"
+msgstr "Nur Tools zur Analyse von doppelten Dateien installieren"
+
+#. Description
+#: ../po/debian-tasks.desc:44001
+msgid "This task installs kaisen-duplicates-files."
+msgstr "Mit dieser Aufgabe wird kaisen-duplicates-files installiert."
+
+#. Description
+#: ../po/debian-tasks.desc:45001
 msgid "Install only hardware tools"
 msgstr "Nur Hardware-Werkzeuge installieren"
 
 #. Description
-#: ../po/debian-tasks.desc:44001
+#: ../po/debian-tasks.desc:45001
 msgid "This task installs kaisen-hardware."
 msgstr "Mit dieser Aufgabe wird kaisen-hardware installiert."
 
 #. Description
-#: ../po/debian-tasks.desc:45001
+#: ../po/debian-tasks.desc:46001
 msgid "Install only partitioning and erasing tools"
 msgstr "Installieren Sie nur Partitionierungs- und Löschwerkzeuge"
 
 #. Description
-#: ../po/debian-tasks.desc:45001
+#: ../po/debian-tasks.desc:46001
 msgid "This task installs kaisen-partitioning-erase."
 msgstr "Mit dieser Aufgabe wird kaisen-partitioning-erase installiert."
 
 #. Description
-#: ../po/debian-tasks.desc:46001
+#: ../po/debian-tasks.desc:47001
 msgid "Install only password tools"
 msgstr "Nur Passwort-Tools installieren"
 
 #. Description
-#: ../po/debian-tasks.desc:46001
+#: ../po/debian-tasks.desc:47001
 msgid "This task installs kaisen-password-tools."
 msgstr "Diese Aufgabe installiert kaisen-password-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:47001
+#: ../po/debian-tasks.desc:48001
 msgid "Install only Outlook PST tools"
 msgstr "Nur Outlook PST-Tools installieren"
 
 #. Description
-#: ../po/debian-tasks.desc:47001
+#: ../po/debian-tasks.desc:48001
 msgid "This task installs kaisen-pst-tools."
 msgstr "Diese Aufgabe installiert die kaisen-pst-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:48001
+#: ../po/debian-tasks.desc:49001
 msgid "Install only temperature tools"
 msgstr "Nur Temperaturwerkzeuge installieren"
 
 #. Description
-#: ../po/debian-tasks.desc:48001
+#: ../po/debian-tasks.desc:49001
 msgid "This task installs kaisen-temperature-tools."
 msgstr "Diese Aufgabe installiert die kaisen-temperature-tools."
 
 #. Description
-#: ../po/debian-tasks.desc:49001
+#: ../po/debian-tasks.desc:50001
 msgid "Install only make bootable USB tools"
 msgstr "Nur bootfähige USB-Tools installieren"
 
 #. Description
-#: ../po/debian-tasks.desc:49001
+#: ../po/debian-tasks.desc:50001
 msgid "This task installs kaisen-usb-boot."
 msgstr "Mit dieser Aufgabe wird kaisen-usb-boot installiert."
 
 #. Description
-#: ../po/debian-tasks.desc:50001
+#: ../po/debian-tasks.desc:51001
 msgid "Install only virus analysis tools"
 msgstr "Nur Virenanalyse-Tools installieren"
 
 #. Description
-#: ../po/debian-tasks.desc:50001
+#: ../po/debian-tasks.desc:51001
 msgid "This task installs kaisen-virus-analysis."
 msgstr "Mit dieser Aufgabe wird kaisen-virus-analysis installiert."
 
 #. Description
-#: ../po/debian-tasks.desc:51001
+#: ../po/debian-tasks.desc:52001
 msgid "Install kaisen-update command"
 msgstr "Installieren Sie den Befehl kaisen-update"
 
 #. Description
-#: ../po/debian-tasks.desc:51001
+#: ../po/debian-tasks.desc:52001
 msgid "This task installs kaisen-update."
 msgstr "Mit dieser Aufgabe wird kaisen-update installiert."

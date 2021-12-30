@@ -1,3 +1,9 @@
+tasksel (3.68+kaisen16) kaisen-packages; urgency=medium
+
+  * Add technicians-duplicates-files task
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 29 Dec 2021 07:28:49 +0100
+
 tasksel (3.68+kaisen15) kaisen-packages; urgency=medium
 
   * Add sysadmin-databases task

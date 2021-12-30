@@ -1,0 +1,8 @@
+Task: technicians-duplicates-files
+Relevance: 08
+Parent: technicians
+Section: user
+Key:
+  kaisen-duplicates-files
+Description: Install only duplicates files analysis tools
+ This task installs kaisen-duplicates-files.
