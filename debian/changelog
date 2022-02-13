@@ -1,3 +1,33 @@
+tasksel (3.69+kaisen1) kaisen-packages; urgency=medium
+
+  * Import 3.69 version
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 13 Feb 2022 17:05:29 +0100
+
+tasksel (3.69+rebuild) unstable; urgency=medium
+
+  * Team upload.
+
+  * Re-upload to allow migration to testing. No source changes.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 11 Feb 2022 19:25:38 +0100
+
+tasksel (3.69) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Holger Wansing ]
+  * Install CUPS for all *-desktop tasks, now that task-print-service is no
+    longer existing. Closes: #993668
+  * Fix broken relationship of japanese-gnome-desktop task to Gnome
+    Flashback desktop. Closes: #998120
+
+  [ Ievgenii Meshcheriakov ]
+  * Don't recommend iukrainian for task-ukrainian, the package is no longer
+    built.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 30 Jan 2022 14:24:49 +0100
+
 tasksel (3.68+kaisen16) kaisen-packages; urgency=medium
 
   * Add technicians-duplicates-files task

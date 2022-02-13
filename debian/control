@@ -3,7 +3,7 @@ Section: tasks
 Priority: optional
 XSBC-Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Build-Depends:
 	debhelper-compat (= 13),
 	dpkg-dev (>= 1.9.0),
