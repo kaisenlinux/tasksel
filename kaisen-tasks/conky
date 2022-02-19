@@ -1,0 +1,7 @@
+Task: conky
+Relevance: 13
+Section: user
+Key:
+  kaisen-conky
+Description: Install Conky
+ This task installs kaisen-conky.
