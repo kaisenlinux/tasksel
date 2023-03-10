@@ -1,3 +1,47 @@
+tasksel (3.72+kaisen1) kaisen-packages; urgency=medium
+
+  * Import the new upstream release
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 10 Mar 2023 17:33:03 +0100
+
+tasksel (3.72) unstable; urgency=medium
+
+  [ Atila KOÇ ]
+  * Updated Turkish debconf translation. Closes: #1028517
+
+  [ Aurélien COUDERC ]
+  * Cleanup task-kde-desktop:
+    - Drop apper, hardly maintained upstream, superseded by Plasma Discover.
+    - Drop dragonplayer, already pulled transitively by kde-standard.
+    - Drop plasma-nm, already pulled transitively by plasma-desktop.
+    - Drop k3b/k3b-i18n, not necessary on default installs anymore these days.
+
+ -- Cyril Brulebois <kibi@debian.org>  Sun, 26 Feb 2023 19:03:20 +0100
+
+tasksel (3.71) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Holger Wansing ]
+  * Correct changelog entry for 3.70.
+  * Change Recommends on gsfonts-x11 (which is now a dummy / transitional
+    package) to fonts-urw-base35. Closes: #1020351
+
+  [ Debian Janitor ]
+  * Refer to specific version of license GPL-2.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Baurzhan Muftakhidinov ]
+  * Updated translations for Kazakh.
+
+  [ d manye ]
+  * Updated Catalan debconf translation.
+
+  [ Samuel Thibault ]
+  * control: Fix gnome-orca dep into orca.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 03 Jan 2023 21:26:23 +0100
+
 tasksel (3.70+kaisen2) kaisen-packages; urgency=medium
 
   * Add the installation of the kaisen-exegol package
