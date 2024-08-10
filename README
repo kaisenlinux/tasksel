@@ -101,8 +101,8 @@ express any such relationships.
 
 If a task is important enough that it should go near the top,
 give it a relevance of 1. If a task is not likely to be
-used, give it a relevance of 9. Default is 5. Relevance can only be a
-single digit.
+used, give it a relevance of 9. Default is 5. Relevance can go from
+1 to 99.
 
 The Section field is not used by tasksel, but debian-cd currently uses it
 to determine if a task is a localization task, or a desktop task, or a

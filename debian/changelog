@@ -1,3 +1,52 @@
+tasksel (3.75+kaisen1) kaisen-packages; urgency=medium
+
+  * Import the new upstream release
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 10 Aug 2024 03:08:49 +0200
+
+tasksel (3.75) unstable; urgency=medium
+
+  * Team upload.
+
+  * Ordering of tasks: move standard task to the bottom of the list. This
+    reverts changed behaviour in 3.74, which moved standard task to the top.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 16 Feb 2024 19:31:10 +0100
+
+tasksel (3.74) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Andrew Lee ]
+  * Revert to fcitx for Traditional Chinese desktop.
+  * Install fcitx frontend for all desktops instead of only qt5 for kde.
+  * Install common input method tables for Traditional Chinese desktop.
+
+  [ Rene Engelhard ]
+  * task-mate-desktop:
+     - Recommend libreoffice-gnome in task-mate-desktop (closes: #1051968)
+
+  [ Luna Jernberg ]
+  * Updated Swedish debconf translation.
+
+  [ Arnaud Rebillout ]
+  * Fix task ordering, and make 'apt install' more deterministic.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 27 Jan 2024 22:06:42 +0100
+
+tasksel (3.73) unstable; urgency=medium
+
+  [ Roland Clobus ]
+  * task-lxqt-desktop:
+     - Move sddm-theme* before sddm to avoid the installation of many
+       additional packages, including a different window manager which
+       would lead to a confusing prompt during the installation.
+       Closes: #1023472
+     - While doing so, fix the theme alternative, declaring sddm-theme
+       as a fallback for sddm-theme-debian-elarun.
+
+ -- Cyril Brulebois <kibi@debian.org>  Thu, 25 May 2023 08:27:56 +0200
+
 tasksel (3.72+kaisen1) kaisen-packages; urgency=medium
 
   * Import the new upstream release

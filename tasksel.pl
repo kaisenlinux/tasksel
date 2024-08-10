@@ -72,7 +72,7 @@ sub list_task_descs {
 #        key => [task-gnome-desktop"],
 #        section => "user",
 #        test-default-desktop => "3 gnome",
-#        sortkey => 1desktop-01
+#        sortkey => 01desktop-01
 #      },
 #      ...
 #    )
@@ -156,12 +156,10 @@ sub read_task_desc {
                         #   Task: parenttask
                         #   Relevance: 6
                         #
-                        # In this case, we set the sortkey to "6parenttask-03".
-                        #
-                        # XXX TODO: support correct sorting when
-                        # Relevance is 10 or more (e.g. package
-                        # education-tasks).
-			$t->{sortkey}=$tasks{$t->{parent}}->{relevance}.$t->{parent}."-0".$t->{relevance};
+                        # In this case, we set the sortkey to "06parenttask-03".
+			my $parent_relevance = sprintf("%02d", $tasks{$t->{parent}}->{relevance});
+			my $relevance = sprintf("%02d", $t->{relevance});
+			$t->{sortkey}=$parent_relevance.$t->{parent}."-".$relevance;
 		}
 		else {
                         # This task has no "Parent:" task.  For example:
@@ -169,11 +167,20 @@ sub read_task_desc {
                         #   Task: sometask
                         #   Relevance: 3
                         #
-                        # In this case, we set the sortkey to "3sometask-00".
-			$t->{sortkey}=$t->{relevance}.$t->{task}."-00";
+                        # In this case, we set the sortkey to "03sometask-00".
+			my $relevance = sprintf("%02d", $t->{relevance});
+			$t->{sortkey}=$relevance.$t->{task}."-00";
 		}
 		push @ret, $t;
 	}
+
+	# At this point, @ret is more or less in random order, since it was
+	# created by iterating over a hash. In the end, packages will be listed
+	# for installation (on the 'apt install' command line) according to the
+	# order of @ret, and this order has an influence on the resulting apt
+	# solution. So let's sort @ret and strive for deterministic results.
+	@ret = sort { $a->{sortkey} cmp $b->{sortkey} } @ret;
+
 	return @ret;
 }
 
@@ -186,7 +193,7 @@ sub read_task_desc {
 #        key => [task-gnome-desktop"],
 #        section => "user",
 #        test-default-desktop => "3 gnome",
-#        sortkey => 1desktop-01
+#        sortkey => 01desktop-01
 #      },
 #      ...
 #    )
@@ -607,7 +614,7 @@ sub order_for_display {
 #      key => [task-gnome-desktop"],
 #      section => "user",
 #      test-default-desktop => "3 gnome",
-#      sortkey => 1desktop-01
+#      sortkey => 01desktop-01
 #    }
 # Given a set of tasks and a name, returns the one with that name.
 sub name_to_task {
