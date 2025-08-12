@@ -44,7 +44,7 @@ unlikely_desktop_architecture () {
 
 # Modern desktops take a lot of ram.
 enough_ram () {
-	min_ram=64              # MiB
+	min_ram=1900              # MiB
 	ram=$(grep ^MemTotal: /proc/meminfo | { read x y z; echo $y; }) || true # kb
 	# The 4 is a fuzz factor to allow for kernel ram usage.
 	if [ "$ram" ] && [ "$ram" -ge "$(expr $(expr $min_ram - 4) \* 1024)" ]; then
@@ -54,12 +54,12 @@ enough_ram () {
 	fi
 }
 
-# The desktop task requires 2 gb or so of disk in /usr, and .5 in /var for
+# The desktop task requires about 4 gb of disk in /usr, and .5 in /var for
 # the debs.
 # FIXME: this should really be generalised and used for tasksel to not
 # suggest any task for which there is not enough disk.
 enough_disk () {
-	min_disk=3
+	min_disk=5
 	disk=$(df -P /usr | tail -1 | awk '{print $4}')
 	if [ "$disk" ] && [ "$disk" -ge "$(expr $min_disk \* 1024 \* 1024)" ]; then
 		return 0

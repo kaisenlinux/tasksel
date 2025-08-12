@@ -1,3 +1,131 @@
+tasksel (3.82+kaisen1) kaisen-packages; urgency=medium
+
+  * Import the new upstream release
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 10 Aug 2025 04:06:58 +0200
+
+tasksel (3.82) unstable; urgency=medium
+
+  * Team upload.
+
+  * Show blendsel task only, when in a debconf session (aka in
+    debian-installer). Closes: #1110130
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 06 Aug 2025 09:45:10 +0200
+
+tasksel (3.81) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Cyril Brulebois ]
+  * Detect commas in package descriptions (unsupported for now, leading to
+    uninstallable packages) at build time. See: #1004090, #1106127.
+
+  [ Boyuan Yang ]
+  * task-chinese-s-desktop: use goldendict-ng as successor of dead
+    goldendict.
+
+  [ Changwoo Ryu ]
+  * Update Korean tasks
+    - task-korean-desktop: Remove fonts-nanum and im-config.
+    - task-korean-gnome-desktop: Add ibus-gtk4.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 15 Jul 2025 06:12:19 +0200
+
+tasksel (3.80) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Michael Biebl ]
+  * Drop Recommends: avahi-autoipd from task-desktop. Since NetworkManager,
+    systemd-networkd and dhcpcd have IPv4LL support built-in, it doesn't seem
+    reasonable to pull in avahi-autoipd by default any longer.
+    Closes: #1089525.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 02 Apr 2025 23:08:46 +0200
+
+tasksel (3.79) unstable; urgency=medium
+
+  * Team upload.
+
+  * Automatic selection of desktop task depending on RAM size: trimming the
+    minimum RAM value again, since '2048' does not work in real for some
+    virtual machines configured with 2G of RAM (follow-up for 3.77).
+  * Trim description of task-blendsel package (review by blends people).
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 09 Jan 2025 08:42:43 +0100
+
+tasksel (3.78) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Dmitry Shachnev ]
+  * Make task-gnome-flashback-desktop depend on network-manager-applet instead
+    of network-manager-gnome. Closes: #1086819.
+
+  [ Yves-Alexis Perez ]
+  * task-xfce-desktop: replace transitional package network-manager-gnome by
+    network-manager-applet and nm-connection-editor. Closes: #1086831.
+
+  [ Boyuan Yang ]
+  * task-malayalam*: Migrate from fcitx4 to fcitx5. Closes: #1087657
+     - fcitx → fcitx5
+     - fcitx-table-malayalam-phonetic → fcitx5-table-malayalam-phonetic
+     - fcitx4 gtk2/gtk3 frontend → fcitx5 gtk2/gtk3/gtk4 frontend
+     - fcitx4 qt5 frontend → fcitx5 qt5/qt6 frontend
+     - fcitx4 KDE config → fcitx5 KDE config
+     - Besides, the dependency to fcitx4 GTK config GUI tool is removed
+       since the fcitx5 upstream is only providing a Qt/KDE frontend GUI
+       config tool at this moment.
+
+  [ Rene Engelhard ]
+  * task-kde-desktop: replace libreoffice-kf5 with libreoffice-kf6
+    Closes: #1089487
+
+  [ Holger Wansing ]
+  * Add task-blendsel as a choice, if blendsel dialog should be shown.
+  * Turn XBC-Maintainer field in d/control into X-Task-Maintainer, to avoid
+    irritating copy into Maintainer field in changes files
+    + to get rid of lintian error with late lintian version. Closes: #794080
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 01 Jan 2025 23:22:09 +0100
+
+tasksel (3.77) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Holger Wansing ]
+  * Increase the minimum RAM for automatic selection of the desktop task
+    from 64 MB to a reasonable value of 2 GB.
+
+  [ Danial Behzadi ]
+  * Update Persian debconf + program translation.
+  * Add Persian fonts to task-persian-desktop.
+
+  [ Boyuan Yang ]
+  * task-telugu*: Migrate from fcitx4 to fcitx5. Closes: #1084914
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 25 Oct 2024 22:59:37 +0200
+
+tasksel (3.76) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ceppo ]
+  * Updated Italian debconf translation. Closes: #1081505
+
+  [ Jeremy Bícha ]
+  * Remove additional Recommends. Gnome team controls such via the Gnome
+    metapackages in the future.
+  * Stop installing synaptic. Closes: #1079595
+  * Stop installing network-manager-gnome. Closes: #1071383
+
+  [ Holger Wansing ]
+  * Increase the minimum free disk for automatic selection of the desktop task
+    to 5 gb. Needed since the desktop task has grown in the meantime.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 03 Oct 2024 18:04:59 +0200
+
 tasksel (3.75+kaisen1) kaisen-packages; urgency=medium
 
   * Import the new upstream release

@@ -11,3 +11,10 @@ override_dh_installdocs:
 
 override_dh_perl:
 	dh_perl -d
+
+override_dh_clean:
+	dh_clean
+	if grep '^Description: .*,' debian/control; then \
+		echo "E: found tasks that won't be installable (see #1004090, #1106127)"; \
+		exit 1; \
+	fi
